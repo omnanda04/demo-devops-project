@@ -1,0 +1,35 @@
+# Version control
+.git/
+.gitignore
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches, test caches, and coverage
+**/__pycache__/
+**/*.py[cod]
+.pytest_cache/
+.coverage*
+htmlcov/
+coverage.xml
+
+# Packaging output
+build/
+dist/
+**/*.egg-info/
+
+# Local environment and editor files
+.env
+.env.*
+.idea/
+.vscode/
+**/.DS_Store
+**/*.swp
+**/*.swo
+
+# Files not needed in the runtime image
+tests/
+requirements-dev.txt
+README.md
